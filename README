@@ -1,0 +1,2 @@
+= Usage =
+./manage.py create_app -t /path/to/my_django_app_template/template/ foobar
