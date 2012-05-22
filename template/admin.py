@@ -5,7 +5,7 @@ import logging
 from django.contrib import admin
 
 #App imports
-from models import *
+from .models import *
 
 logger = logging.getLogger(__name__)
 

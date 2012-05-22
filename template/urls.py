@@ -1,7 +1,10 @@
 #Django imports
 from django.conf.urls.defaults import *
 
+#App imports
+from .views import index
+
 # place app url patterns here
-urlpatterns = patterns('some_app.views',
-	url(r'^$', 'index', name="some_app_index"),
+urlpatterns = patterns('',
+	url(r'^$', index, name="{{ app_name }}_index"),
 )

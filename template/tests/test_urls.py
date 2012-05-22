@@ -5,5 +5,8 @@ import pdb
 from django.core.urlresolvers import reverse
 
 #App imports
-from util import BaseTestCase
+from ..models import *
+
+#Test imports
+from .util import BaseTestCase
 

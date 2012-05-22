@@ -2,5 +2,8 @@
 import pdb
 
 #App imports
-from util import BaseTestCase
+from ..models import *
+
+#Test imports
+from .util import BaseTestCase
 

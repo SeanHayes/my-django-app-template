@@ -5,7 +5,7 @@ import logging
 from django.db import models
 
 #App imports
-from managers import *
+from .managers import *
 
 logger = logging.getLogger(__name__)
 
