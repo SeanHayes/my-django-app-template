@@ -8,5 +8,5 @@ from django.core.urlresolvers import reverse
 from ..models import *
 
 #Test imports
-from .util import BaseTestCase
+from .base import BaseTestCase
 

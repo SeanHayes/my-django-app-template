@@ -5,5 +5,5 @@ import pdb
 from ..models import *
 
 #Test imports
-from .util import BaseTestCase
+from .base import BaseTestCase
 

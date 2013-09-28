@@ -7,12 +7,13 @@ from .test_models import *
 from .test_urls import *
 
 __test__ = {
-	'test_managers': [test_managers],
-	'test_models': [test_models],
-	'test_urls': [test_urls],
+    'test_managers': [test_managers],
+    'test_models': [test_models],
+    'test_urls': [test_urls],
 }
 
 class DefaultTestCase(TestCase):
-	def test_foo(self):
-		"Just a reminder to write tests for this app. This test can be deleted."
-		assert False
+    def test_foo(self):
+        "Just a reminder to write tests for this app. This test can be deleted."
+        assert False
+
